@@ -4,21 +4,19 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> portofolio saya</title>
-    </title>
+    <title>Portofolio Saya</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- AOS CSS for animations -->
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
-    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <!-- Fonts and Icons -->
     <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/f90068558c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
 </head>
 
 <body>
-    <header>
-        <h1>Portofolio Saya test git dari pc ke laptop test 3 last test laptop ke pc</h1>
+    <header data-aos="fade-down" data-aos-duration="1000">
+        <h1>Portofolio Saya</h1>
         <nav>
             <ul>
                 <li><a href="#about">Tentang Saya</a></li>
@@ -28,7 +26,7 @@
         </nav>
     </header>
     <main>
-        <section id="about">
+        <section id="about" data-aos="fade-up" data-aos-duration="1000">
             <h2>Tentang Saya</h2>
             <p>Perkenalkan, nama saya Putu Gede Purnaditya Putra, biasa dipanggil Purna. Saya tinggal di Ubung Kaja,
                 tepatnya di Jalan Irawan, dan saat ini saya menempuh pendidikan di SMK TI Bali Global Denpasar, jurusan
@@ -52,12 +50,11 @@
         </section>
 
         <section id="projects">
-            <h2>Proyek</h2>
+            <h2 data-aos="fade-right" data-aos-duration="1000">Proyek</h2>
             <div class="project-list">
 
-                <article class="project-item">
+                <article class="project-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
                     <h3>Figma app Design</h3>
-
                     <img src="./asset/Screenshot 2025-06-20 124235.png" alt="Gambar Proyek 1">
                     <p>Desain ini adalah konsep aplikasi galeri media dengan tampilan modern dan fokus visual.
                         Menggunakan tema gelap dengan aksen hijau, terdapat halaman onboarding, grid konten, player
@@ -65,9 +62,8 @@
                         .</p>
                     <a href="https://www.figma.com/design/mlsWILbkvctDs2g93I9xu5/Untitled?node-id=0-1&t=NR6MYNWtqUavWMzo-1"
                         target="_blank">Lihat Proyek</a>
-
                 </article>
-                <article class="project-item">
+                <article class="project-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
                     <h3>Website artikel </h3>
                     <img src="./asset/Screenshot 2025-06-20 123903.png" alt="Gambar Proyek 2">
                     <p>Ini adalah website yang saya buat dengan tema artikel web yang berjudul 20 perusahaan teknologi
@@ -77,9 +73,9 @@
                     <a href="https://drive.google.com/drive/folders/1bQnrjzZFQcnz11HGSJn08DFF2k9YMCHM?usp=sharing"
                         target="_blank">Lihat File</a>
                 </article>
-                <article class="project-item">
+                <article class="project-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
                     <h3>Program kasir </h3>
-                    <img src="./asset/WhatsApp Image 2025-06-20 at 12.47.59_543ea9d0.jpg" alt="Gambar Proyek 2">
+                    <img src="./asset/WhatsApp Image 2025-06-20 at 12.47.59_543ea9d0.jpg" alt="Gambar Proyek 3">
                     <p>Program kasir sederhana menggunakan C++ </p>
                     <a href="https://drive.google.com/drive/folders/1bQnrjzZFQcnz11HGSJn08DFF2k9YMCHM?usp=sharing"
                         target="_blank">Lihat File</a>
@@ -88,16 +84,15 @@
             </div>
 
         </section>
-        <section id="contact">
+        <section id="contact" data-aos="fade-up" data-aos-duration="1000">
             <h2>Kontak Saya</h2>
             <p><i class="fab fa-whatsapp"></i> WhatsApp: +62 819-3510-8976</p>
             <p><i class="fas fa-envelope"></i> Email: tudepurnaditya@gmail.com</p>
             <p><i class="fab fa-telegram"></i> Telegram: @Thatmepurna</p>
-
         </section>
 
     </main>
-    <footer class="footer">
+    <footer class="footer" data-aos="fade-up" data-aos-duration="1000">
         <div class="footer-center">
             <h2>Purna</h2>
             <p>Website Developer</p>
@@ -124,6 +119,8 @@
         </div>
     </footer>
 
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 
